@@ -36,3 +36,50 @@
     transform: rotate(360deg);
   }
 }
+.first, .second, .fifth,.third, .six{
+  margin: auto;
+  margin-top: 3rem;
+  width: 90%;
+  box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: row;
+  color: brown;
+  padding: 1rem 1rem; 
+
+}
+.fourth{
+  
+    margin: auto;
+    margin-top: 3rem;
+    width: 90%;
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+    background-color: antiquewhite;
+    color: brown;
+    padding: 1rem 1rem; 
+  }
+
+.second .new, .six .new{
+  width: 70%;
+}
+.check{
+  
+  flex: 1;
+  color: brown;
+  padding: 1rem 1rem;
+  font-weight: bolder;
+
+}
+.sec{
+  margin-top: 5rem;
+  padding: 5rem 3rem;
+  flex: 1;
+  
+}
+.sec img{
+  width: 100%;
+}
+.MuiAppBar-colorPrimary{
+  background-color: antiquewhite;
+  color: brown;
+}
